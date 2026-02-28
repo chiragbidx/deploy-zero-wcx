@@ -5,3 +5,32 @@
 :root {
   --bs-body-bg: var(--bs-gray-100);
 }
+
+section {
+  scroll-margin-top: 72px;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.card-img-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card-body {
+  padding-bottom: 2rem;
+}
+
+footer {
+  font-size: 1rem;
+}
+
+@media (max-width: 991.98px) {
+  .navbar .navbar-collapse {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+}
